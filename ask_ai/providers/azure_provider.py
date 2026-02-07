@@ -1,12 +1,11 @@
-from typing import List, Dict, Any, Optional
-import os
-from ..base import BaseProvider, Response # Import base classes
+from ..base import BaseProvider, Response
 from ..config import AdvancedConfig
 from ..exceptions import APIKeyError, ProviderError
 from .openai_provider import OpenAIProvider
 
 class AzureProvider(OpenAIProvider):
-    def __init__(self, api_key: str = None, model: str = None, endpoint: str = None, api_version: str = None, **kwargs):
+    def __init__(self, api_key: str = None, model: str = None, endpoint: str = None, 
+                 api_version: str = None, deployment_name: str = None, **kwargs):
         
         self.api_key = api_key or os.environ.get("AZURE_OPENAI_API_KEY")
         if not self.api_key:
@@ -26,7 +25,7 @@ class AzureProvider(OpenAIProvider):
             azure_endpoint=self.endpoint
         )
 
-        self.model = model or os.environ.get("AZURE_OPENAI_DEPLOYMENT_NAME") 
+        self.model = model or deployment_name or os.environ.get("AZURE_OPENAI_DEPLOYMENT_NAME") 
         if not self.model:
             # Azure uses "deployment name" as model parameter usually.
             raise ProviderError("Azure Model (Deployment Name) is missing. Set AZURE_OPENAI_DEPLOYMENT_NAME env var or pass model=")
