@@ -105,7 +105,7 @@ print(ai.ask("How do I optimize a Dockerfile?"))
 
 If this project saved you time, please consider giving it a star on GitHub! It helps us grow.
 
-**[Give it a Star!](https://github.com/Hosseinghorbani0/easyai)**
+**[Give it a Star!](https://github.com/Hosseinghorbani0/ask-ai)**
 
 ---
 *Built by [Hossein Ghorbani](https://hosseinghorbani0.ir/) | [GitHub](https://github.com/Hosseinghorbani0).*
