@@ -2,7 +2,7 @@ from typing import Optional, Union, List, Dict, Any
 import os
 from .config import AdvancedConfig
 from .media import ImageObject, AudioObject
-from .exceptions import APIKeyError
+from .exceptions import AskAIError, ProviderError
 
 class Response:
     """
