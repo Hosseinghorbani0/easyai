@@ -1,7 +1,7 @@
 import pytest
 import os
-from easyai import OpenAI, Groq, Google, OpenRouter, Azure, Anthropic, AdvancedConfig
-from easyai.exceptions import EasyAIError
+from ask_ai import OpenAI, Groq, Google, OpenRouter, Azure, Anthropic, AdvancedConfig
+from ask_ai.exceptions import AskAIError
 
 def test_advanced_config_defaults():
     config = AdvancedConfig()

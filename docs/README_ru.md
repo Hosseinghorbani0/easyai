@@ -1,4 +1,4 @@
-# easyai
+# ask-ai
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -12,7 +12,7 @@
   <a href="README_ja.md"><img src="https://flagcdn.com/20x15/jp.png" alt="Japanese"> 日本語</a>
 </p>
 
-# 🚀 easyai
+# 🚀 ask-ai
 
 **ИИ стал простым.**
 Подключайтесь к OpenAI, Groq, Google, Anthropic и другим одной строкой кода.
@@ -24,7 +24,7 @@
 
 ---
 
-## ⚡ Почему easyai?
+## ⚡ Почему ask-ai?
 
 - **Нет привязки к SDK**: Не учите 5 разных библиотек. Выучите одну.
 - **Единый API**: `ai.ask()` работает для текста, изображений и аудио у всех провайдеров.
@@ -35,10 +35,10 @@
 
 ## 🚀 Золотой пример (The Golden Example)
 
-Посмотрите на мощь `easyai` в 3 строках кода:
+Посмотрите на мощь `ask-ai` в 3 строках кода:
 
 ```python
-from easyai import OpenAI, Anthropic, Google
+from ask_ai import OpenAI, Anthropic, Google
 
 prompt = "Объясни квантовые вычисления одним предложением."
 
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 Установка
 
 ```bash
-pip install easyai
+pip install ask-ai
 ```
 
 ---
@@ -69,7 +69,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 ### 2. Стандартное использование
 ```python
-from easyai import OpenAI
+from ask_ai import OpenAI
 
 ai = OpenAI()
 print(ai.ask("Привет, мир!"))
@@ -106,7 +106,7 @@ print(ai.ask("Как оптимизировать Dockerfile?"))
 
 Если этот проект сэкономил вам время, пожалуйста, поставьте звезду на GitHub! Это помогает нам расти.
 
-**[Поставить звезду!](https://github.com/Hosseinghorbani0/easyai)**
+**[Поставить звезду!](https://github.com/Hosseinghorbani0/ask-ai)**
 
 ---
 *Создано [Hossein Ghorbani](https://hosseinghorbani0.ir/) | [GitHub](https://github.com/Hosseinghorbani0).*

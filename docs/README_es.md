@@ -1,4 +1,4 @@
-# easyai
+# ask-ai
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -12,7 +12,7 @@
   <a href="README_ja.md"><img src="https://flagcdn.com/20x15/jp.png" alt="Japanese"> 日本語</a>
 </p>
 
-# 🚀 easyai
+# 🚀 ask-ai
 
 **IA Simplificada.**
 Conéctate a OpenAI, Groq, Google, Anthropic y más con una sola línea de código.
@@ -24,7 +24,7 @@ Conéctate a OpenAI, Groq, Google, Anthropic y más con una sola línea de códi
 
 ---
 
-## ⚡ ¿Por qué easyai?
+## ⚡ ¿Por qué ask-ai?
 
 - **Sin bloqueo de SDK**: No aprendas 5 bibliotecas diferentes. Aprende una.
 - **API Unificada**: `ai.ask()` funciona para texto, imágenes y audio en todos los proveedores.
@@ -35,10 +35,10 @@ Conéctate a OpenAI, Groq, Google, Anthropic y más con una sola línea de códi
 
 ## 🚀 El Ejemplo Dorado (The Golden Example)
 
-Mira el poder de `easyai` en 3 líneas de código:
+Mira el poder de `ask-ai` en 3 líneas de código:
 
 ```python
-from easyai import OpenAI, Anthropic, Google
+from ask_ai import OpenAI, Anthropic, Google
 
 prompt = "Explica la computación cuántica en una frase."
 
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 Instalación
 
 ```bash
-pip install easyai
+pip install ask-ai
 ```
 
 ---
@@ -69,7 +69,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 ### 2. Uso Estándar
 ```python
-from easyai import OpenAI
+from ask_ai import OpenAI
 
 ai = OpenAI()
 print(ai.ask("¡Hola Mundo!"))
@@ -106,7 +106,7 @@ print(ai.ask("¿Cómo optimizo un Dockerfile?"))
 
 Si este proyecto te ahorró tiempo, ¡por favor considera darle una estrella en GitHub! Nos ayuda a crecer.
 
-**[¡Dale una Estrella!](https://github.com/Hosseinghorbani0/easyai)**
+**[¡Dale una Estrella!](https://github.com/Hosseinghorbani0/ask-ai)**
 
 ---
 *Construido por [Hossein Ghorbani](https://hosseinghorbani0.ir/) | [GitHub](https://github.com/Hosseinghorbani0).*

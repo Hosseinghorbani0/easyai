@@ -1,4 +1,4 @@
-# easyai
+# ask-ai
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -12,7 +12,7 @@
   <a href="README_ja.md"><img src="https://flagcdn.com/20x15/jp.png" alt="Japanese"> 日本語</a>
 </p>
 
-# 🚀 easyai
+# 🚀 ask-ai
 
 **AIをシンプルに。**
 たった1行のコードでOpenAI、Groq、Google、Anthropicなどに接続できます。
@@ -24,7 +24,7 @@
 
 ---
 
-## ⚡ なぜ easyai なのか？
+## ⚡ なぜ ask-ai なのか？
 
 - **SDKロックインなし**: 5つの異なるライブラリを学ぶ必要はありません。1つだけ学びましょう。
 - **統一API**: `ai.ask()` はすべてのプロバイダーでテキスト、画像、音声に対して機能します。
@@ -35,10 +35,10 @@
 
 ## 🚀 黄金の例 (The Golden Example)
 
-たった3行のコードで `easyai` の力を体験してください：
+たった3行のコードで `ask-ai` の力を体験してください：
 
 ```python
-from easyai import OpenAI, Anthropic, Google
+from ask_ai import OpenAI, Anthropic, Google
 
 prompt = "量子コンピュータを一行で説明して。"
 
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 インストール
 
 ```bash
-pip install easyai
+pip install ask-ai
 ```
 
 ---
@@ -69,7 +69,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 ### 2. 標準的な使用法
 ```python
-from easyai import OpenAI
+from ask_ai import OpenAI
 
 ai = OpenAI()
 print(ai.ask("こんにちは、世界！"))
@@ -106,7 +106,7 @@ print(ai.ask("Dockerfileを最適化するにはどうすればいいですか�
 
 このプロジェクトが時間の節約になった場合は、GitHubでスターを付けることを検討してください！私たちの成長に役立ちます。
 
-**[スターを付ける！](https://github.com/Hosseinghorbani0/easyai)**
+**[スターを付ける！](https://github.com/Hosseinghorbani0/ask-ai)**
 
 ---
 *Created by [Hossein Ghorbani](https://hosseinghorbani0.ir/) | [GitHub](https://github.com/Hosseinghorbani0).*

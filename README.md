@@ -1,4 +1,4 @@
-# easyai
+# ask-ai
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -24,7 +24,7 @@
 
 ---
 
-## ⚡ Why easyai?
+## ⚡ Why ask-ai?
 
 - **No SDK lock-in**: Don't learn 5 different libraries. Learn one.
 - **Unified API**: `ai.ask()` works for text, images, and audio across all providers.
@@ -35,10 +35,10 @@
 
 ## 🚀 The Golden Example
 
-See the power of `easyai` in 3 lines of code:
+See the power of `ask-ai` in 3 lines of code:
 
 ```python
-from easyai import OpenAI, Anthropic, Google
+from ask_ai import OpenAI, Anthropic, Google
 
 prompt = "Explain quantum computing in one sentence."
 
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 Installation
 
 ```bash
-pip install easyai
+pip install ask-ai
 ```
 
 ---
@@ -69,7 +69,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 ### 2. Standard Usage
 ```python
-from easyai import OpenAI
+from ask_ai import OpenAI
 
 ai = OpenAI()
 print(ai.ask("Hello, World!"))

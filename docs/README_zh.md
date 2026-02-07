@@ -1,4 +1,4 @@
-# easyai
+# ask-ai
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -12,7 +12,7 @@
   <a href="README_ja.md"><img src="https://flagcdn.com/20x15/jp.png" alt="Japanese"> 日本語</a>
 </p>
 
-# 🚀 easyai
+# 🚀 ask-ai
 
 **AI Made Simple.**
 只需一行代码即可连接到 OpenAI、Groq、Google、Anthropic 等。
@@ -24,7 +24,7 @@
 
 ---
 
-## ⚡ 为什么选择 easyai？
+## ⚡ 为什么选择 ask-ai？
 
 - **无 SDK 锁定**：不要学习 5 个不同的库。只学一个。
 - **统一 API**：`ai.ask()` 适用于所有提供商的文本、图像和音频。
@@ -35,10 +35,10 @@
 
 ## 🚀 黄金示例 (The Golden Example)
 
-用 3 行代码见证 `easyai` 的力量：
+用 3 行代码见证 `ask-ai` 的力量：
 
 ```python
-from easyai import OpenAI, Anthropic, Google
+from ask_ai import OpenAI, Anthropic, Google
 
 prompt = "用一句话解释量子计算。"
 
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 安装
 
 ```bash
-pip install easyai
+pip install ask-ai
 ```
 
 ---
@@ -69,7 +69,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 ### 2. 标准用法
 ```python
-from easyai import OpenAI
+from ask_ai import OpenAI
 
 ai = OpenAI()
 print(ai.ask("你好，世界！"))
@@ -106,7 +106,7 @@ print(ai.ask("如何优化 Dockerfile？"))
 
 如果这个项目为您节省了时间，请考虑在 GitHub 上给它一颗星！这有助于我们成长。
 
-**[给它一颗星！](https://github.com/Hosseinghorbani0/easyai)**
+**[给它一颗星！](https://github.com/Hosseinghorbani0/ask-ai)**
 
 ---
 *由 [Hossein Ghorbani](https://hosseinghorbani0.ir/) 构建 | [GitHub](https://github.com/Hosseinghorbani0)。*

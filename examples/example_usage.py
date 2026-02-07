@@ -1,4 +1,4 @@
-from easyai import OpenAI, AdvancedConfig
+from ask_ai import OpenAI, AdvancedConfig
 import os
 
 # Ultra-Simple Usage
