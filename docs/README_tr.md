@@ -1,4 +1,4 @@
-# ask-ai
+# askai-python
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -12,7 +12,7 @@
   <a href="README_ja.md"><img src="https://flagcdn.com/20x15/jp.png" alt="Japanese"> 日本語</a>
 </p>
 
-# 🚀 ask-ai
+# 🚀 askai-python
 
 **Yapay Zeka Basitleştirildi.**
 OpenAI, Groq, Google, Anthropic ve daha fazlasına tek bir kod satırıyla bağlanın.
@@ -24,7 +24,7 @@ OpenAI, Groq, Google, Anthropic ve daha fazlasına tek bir kod satırıyla bağl
 
 ---
 
-## ⚡ Neden ask-ai?
+## ⚡ Neden askai-python?
 
 - **SDK Kilidi Yok**: 5 farklı kütüphane öğrenmeyin. Bir tane öğrenin.
 - **Birleşik API**: `ai.ask()` tüm sağlayıcılarda metin, görüntü ve ses için çalışır.
@@ -35,7 +35,7 @@ OpenAI, Groq, Google, Anthropic ve daha fazlasına tek bir kod satırıyla bağl
 
 ## 🚀 Altın Örnek (The Golden Example)
 
-`ask-ai`nin gücünü 3 satır kodda görün:
+`askai-python`nin gücünü 3 satır kodda görün:
 
 ```python
 from ask_ai import OpenAI, Anthropic, Google
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 Kurulum
 
 ```bash
-pip install ask-ai
+pip install askai-python
 ```
 
 ---
@@ -106,7 +106,7 @@ print(ai.ask("Bir Dockerfile'ı nasıl optimize ederim?"))
 
 Bu proje size zaman kazandırdıysa, lütfen GitHub'da bir yıldız vermeyi düşünün! Büyümemize yardımcı olur.
 
-**[Bir Yıldız Verin!](https://github.com/Hosseinghorbani0/ask-ai)**
+**[Bir Yıldız Verin!](https://github.com/Hosseinghorbani0/askai-python)**
 
 ---
 *Created by [Hossein Ghorbani](https://hosseinghorbani0.ir/) | [GitHub](https://github.com/Hosseinghorbani0).*

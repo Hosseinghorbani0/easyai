@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 Installation
 
 ```bash
-pip install ask-ai
+pip install askai-python
 ```
 
 ---

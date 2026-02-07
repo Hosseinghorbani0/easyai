@@ -1,4 +1,4 @@
-# ask-ai
+# askai-python
 
 <p align="center">
   🌍 <b>Readme:</b>
@@ -12,7 +12,7 @@
   <a href="README_ja.md"><img src="https://flagcdn.com/20x15/jp.png" alt="Japanese"> 日本語</a>
 </p>
 
-# 🚀 ask-ai
+# 🚀 askai-python
 
 **ИИ стал простым.**
 Подключайтесь к OpenAI, Groq, Google, Anthropic и другим одной строкой кода.
@@ -24,7 +24,7 @@
 
 ---
 
-## ⚡ Почему ask-ai?
+## ⚡ Почему askai-python?
 
 - **Нет привязки к SDK**: Не учите 5 разных библиотек. Выучите одну.
 - **Единый API**: `ai.ask()` работает для текста, изображений и аудио у всех провайдеров.
@@ -35,7 +35,7 @@
 
 ## 🚀 Золотой пример (The Golden Example)
 
-Посмотрите на мощь `ask-ai` в 3 строках кода:
+Посмотрите на мощь `askai-python` в 3 строках кода:
 
 ```python
 from ask_ai import OpenAI, Anthropic, Google
@@ -53,7 +53,7 @@ print("Gemini:   ", Google().ask(prompt))
 ## 📦 Установка
 
 ```bash
-pip install ask-ai
+pip install askai-python
 ```
 
 ---
@@ -106,7 +106,7 @@ print(ai.ask("Как оптимизировать Dockerfile?"))
 
 Если этот проект сэкономил вам время, пожалуйста, поставьте звезду на GitHub! Это помогает нам расти.
 
-**[Поставить звезду!](https://github.com/Hosseinghorbani0/ask-ai)**
+**[Поставить звезду!](https://github.com/Hosseinghorbani0/askai-python)**
 
 ---
 *Создано [Hossein Ghorbani](https://hosseinghorbani0.ir/) | [GitHub](https://github.com/Hosseinghorbani0).*

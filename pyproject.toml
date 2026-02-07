@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ask-ai"
-version = "0.1.1"
+name = "askai-python"
+version = "0.1.2"
 description = "AI Made Stupid Simple. Unified API for OpenAI, Groq, Google, and more."
 readme = "README.md"
 requires-python = ">=3.8"

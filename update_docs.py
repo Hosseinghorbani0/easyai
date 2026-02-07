@@ -11,11 +11,8 @@ for filename in os.listdir(target_dir):
         with open(path, "r", encoding="utf-8") as f:
             content = f.read()
         
-        # 1. Update Code Imports (Must be snake_case)
-        new_content = content.replace("from easyai import", "from ask_ai import")
-        new_content = new_content.replace("import easyai", "import ask_ai")
-        # 2. Update Text/Pip (Kebab-case preferred for branding/pip)
-        new_content = new_content.replace("easyai", "ask-ai")
+        # Update Branding/Pip name
+        new_content = content.replace("ask-ai", "askai-python")
         
         with open(path, "w", encoding="utf-8") as f:
             f.write(new_content)
